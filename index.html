@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Restaurant Website</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- mobile.css -->
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- icons8.com cdn link -->
+
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,300;0,400;1,300&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ---------------------------------------header starts----------------------------------------- -->
+    <header id="header">
+      <nav>
+        <ul>
+          <li><a href="#home" class="link">home</a></li>
+          <li><a href="#special" class="link">special</a></li>
+          <li><a href="#about" class="link">about</a></li>
+          <li><a href="#dishes" class="link">dishes</a></li>
+          <li><a href="#contact" class="link">contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <!-- css image -->
+      </div>
+      <a href="#" class="logo"
+        ><span><i class="fas fa-utensils-alt"></i></span
+      ></a>
+    </header>
+    <!-- ---------------------------------------header ends----------------------------------------- -->
+
+    <!-- ---------------------------------------home start----------------------------------------- -->
+    <section id="home" class="container-fluid">
+      <div class="row min-vh-100 align-items-center">
+        <div class="col-md-8 text-md-start ms-md-5 text-center content">
+          <h1>food that you can't resist</h1>
+          <h2>enjoy the marvelous taste</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            placeat obcaecati fuga fugit suscipit atque amet animi dolores
+            praesentium recusandae?
+          </p>
+          <a href="#special"><button class="btn-home">Get Started</button></a>
+        </div>
+        <div class="vedio-container">
+          <video
+            src="./vedios/vedio 1.mp4"
+            autoplay
+            loop
+            class="vid vid-1"
+          ></video>
+          <video
+            src="./vedios/vedio 2.mp4"
+            autoplay
+            loop
+            class="vid vid-2"
+          ></video>
+          <video
+            src="./vedios/video 3.mp4"
+            autoplay
+            loop
+            class="vid vid-3"
+          ></video>
+        </div>
+      </div>
+      <div class="controls">
+        <div class="dot dot-1"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+      </div>
+    </section>
+    <!-- ---------------------------------------home ends----------------------------------------- -->
+    <!-- ---------------------------------------special start----------------------------------------- -->
+    <section id="special" class="container-fluid">
+      <div class="heading text-center">
+        <h1>our <span>special</span></h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
+        </p>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="./images/card 1.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            mollitia autem, fugit voluptatibus vitae impedit natus sint quasi
+            vel quibusdam?
+          </p>
+          <a href="#"><button class="btn-home">read more</button></a>
+        </div>
+        <div class="card">
+          <img src="./images/card 2.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            mollitia autem, fugit voluptatibus vitae impedit natus sint quasi
+            vel quibusdam?
+          </p>
+          <a href="#"><button class="btn-home">read more</button></a>
+        </div>
+        <div class="card">
+          <img src="./images/card 3.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            mollitia autem, fugit voluptatibus vitae impedit natus sint quasi
+            vel quibusdam?
+          </p>
+          <a href="#"><button class="btn-home">read more</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------------special end----------------------------------------- -->
+
+    <!-- ---------------------------------------about start----------------------------------------- -->
+    <section id="about" class="container">
+      <div class="heading text-center">
+        <h1>about <span>us</span></h1>
+      </div>
+      <div class="row min-vh-100">
+        <div
+          class="col-md-6 text-md-start text-center align-self-center content"
+        >
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex natus
+            atque accusantium repellat sed corporis magnam explicabo voluptates
+            quas. Alias.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut,
+            debitis atque minus explicabo et deleniti mollitia, consequatur
+            repellendus unde commodi dolorem deserunt necessitatibus provident
+            maxime.
+          </p>
+          <a href="#"><button class="btn-home">learn more</button></a>
+        </div>
+        <div class="col-md-6 image">
+          <img
+            src="./images/366-3664414_cook-clipart-chef-cupcake-double-sided-airplane-cupcake.png"
+            alt="image"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------------about end----------------------------------------- -->
+
+    <!-- ---------------------------------------dish start----------------------------------------- -->
+    <section id="dishes" class="container">
+      <div class="heading text-center">
+        <h1>our <span>dishes</span></h1>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="./images/dish 1.jpg" alt="" />
+          <div class="info">
+            <h3>dish 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis nesciunt illum ullam sed ab neque?
+            </p>
+            <a href="#"><button class="btn-home">view</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./images/dish 2.jpg" alt="" />
+          <div class="info">
+            <h3>dish 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis nesciunt illum ullam sed ab neque?
+            </p>
+            <a href="#"><button class="btn-home">view</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./images/dish 3.jpg" alt="" />
+          <div class="info">
+            <h3>dish 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis nesciunt illum ullam sed ab neque?
+            </p>
+            <a href="#"><button class="btn-home">view</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./images/dish 4.jpg" alt="" />
+          <div class="info">
+            <h3>dish 4</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis nesciunt illum ullam sed ab neque?
+            </p>
+            <a href="#"><button class="btn-home">view</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./images/dish 5.jpg" alt="" />
+          <div class="info">
+            <h3>dish 5</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis nesciunt illum ullam sed ab neque?
+            </p>
+            <a href="#"><button class="btn-home">view</button></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./images/dish 6.jpg" alt="" />
+          <div class="info">
+            <h3>dish 6</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis nesciunt illum ullam sed ab neque?
+            </p>
+            <a href="#"><button class="btn-home">view</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------dish end----------------------------------------- -->
+    <!-- ---------------------------------------Contact start----------------------------------------- -->
+    <section id="contact" class="container-fluid">
+      <div class="heading text-center">
+        <h1>contact <span>us</span></h1>
+      </div>
+      <div class="row justify-content-center">
+        <form class="col-md-7">
+          <div class="inputBox">
+            <input type="text" required id="formField" />
+            <h3 class="head">full name</h3>
+          </div>
+          <div class="inputBox">
+            <input type="email" required />
+            <h3 class="head">email</h3>
+          </div>
+          <div class="inputBox">
+            <textarea required name="" cols="30" rows="10"></textarea>
+            <h3 class="head">message</h3>
+          </div>
+          <input type="submit" value="send" class="btn-home" />
+        </form>
+      </div>
+    </section>
+    <!-- ---------------------------------------contact end----------------------------------------- -->
+
+    <!-- ---------------------------------------footer start----------------------------------------- -->
+    <section id="footer" class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-md-4 brand">
+          <a href="#" class="logo"
+            ><span><i class="fas fa-utensils-alt"></i></span
+          ></a>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook-square"></a>
+            <a href="#" class="fab fa-twitter-square"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-pinterest-square"></a>
+          </div>
+        </div>
+        <div class="col-md-4 footer-links">
+          <h3>links:</h3>
+          <a href="#home">home</a>
+          <a href="#special">special</a>
+          <a href="#about">about</a>
+          <a href="#dishes">dishes</a>
+          <a href="#contact">contact</a>
+        </div>
+        <div class="col-md-4 text-md-start text-center letter">
+          <h2>newsletter</h2>
+          <input type="text" /><br />
+          <input type="submit" value="subscribe" class="btn-home" />
+        </div>
+      </div>
+      <h1>&copy; copyright @ 2020 by <span>Ahtesham Akram AK</span></h1>
+    </section>
+    <!-- ---------------------------------------footer end----------------------------------------- -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
